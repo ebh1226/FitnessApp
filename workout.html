@@ -1,297 +1,245 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
-</head>
-<body>
-    <main>
-        <nav>
-            <div class="nav-logo">
-            <img src="./assets/images/63fec9eeb8692c4a95dd4ec0_logo.svg" alt=""> 
-            </div>
-            <div class="navbar">
-                <div class="navbar-1">
-                    <a>work</a>
-                    <a>services</a>
-                    <a>about</a>
-                    <a>news</a>
-                    <a>pages</a>
-                </div>
-                <div class="navbar-2">
-                    <p>(0)</p>
-                    <h2>let's create</h2>
-                </div>
-            </div>
-        </nav>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ellen's Fitness Website</title>
 
-        <section class="view-1">
-            <div class="view-1-a">
-                <img src="./assets/images/63fed275667d13010afac1ac_heading-fashionwerk.svg" alt="">
-            </div>
-            <div class="view-1-b">
-                <p>branding agency</p>
-                <p>from berlin</p>
-            </div>
-        </section>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap-social.css"> -->
 
-        <section class="view-2">
-            <div class="view-2-heroimg">
-                <img src="./assets/images/63fed72aa75a04d4f083eb4a_home-hero-p-1600.webp" alt="">
-            </div>
-            <div class="view-2-container">
-                <h1>UNLEASHING YOUR BRAND'S POTENTIAL</h1>
-                <p>Comprehensive branding solutions that help fashion, lifestyle, and luxury brands connect with their target audience.</p>
-                <div class="view-2-elem-a">
-                    <div class="view-2-elem">
-                        <p>01</p>
-                        <p>BRANDING</p>
-                    </div>
-                    <hr>
-                    <div class="view-2-elem">
-                        <p>02</p>
-                        <p>CAMPAIGNS</p>
-                    </div>
-                    <hr>
-                    <div class="view-2-elem">
-                        <p>03</p>
-                        <p>E-COMMERCE</p>
-                    </div>
-                    <hr>
-                    <div class="view-2-elem">
-                        <p>04</p>
-                        <p>SOCIAL MEDIA</p> 
-                    </div>
-                </div>
-            </div>
 
-        </section>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+      <div class="container">
+        <!-- navbar-header -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target = "#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-        <section class="view-3">
-            <div class="view-3-heroimg">
-                <img src="./assets/images/63ff0189107c3469a831cb0a_home-about-p-800.webp" alt="">
+          <!-- brand logo -->
+          <a href="#" class="navbar-brand">EBHFit</a>
+        </div>
+        <div  class="collapse navbar-collapse" id="navbar-collapse">
+          <a href="#" class="btn navbar-btn btn-warning navbar-right">New Workout</a>
+          <ul class="nav navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="#PreviousWorkouts">Previous Workouts</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </div>
+      </div>  
+    </nav> <!--End Navbar-->
+  
+    <!-- JUMBOTRON -->
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Let's Get It</h1>
+        <p>Cycle, running, lifting ... let's go!</p>
+
+        <div class="btn-group">
+          <a href="#" class="btn btn-large btn-warning">Download App</a>
+          <a href="#" class="btn btn-large btn-default ">Visit Store</a>
+          <a href="#" class="btn btn-large btn-warning"><span class="glyphicon glyphicon-share-alt"></span>Share with</a>
+        </div>
+      </div>
+    </div><!--End Jumbotron-->
+
+    <!-- Gallery -->
+     <div class="container-fluid" id="hamza">
+    <section>
+      <div class="page-header" id="home">
+          <h2>Gallery.<small> Check out the Awesome Gallery</small></h2>
+        </div>
+
+        <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/color-3134831.jpg" class= "img-responsive" alt="Text of the image">
+              <div class="carousel-caption">
+                <h3>LOREM IPSUM</h3>
+                <p>This is the caption</p>
+              </div>
             </div>
-
-            <div class="view-3-container">
-                <h3>what we do</h3>
-                <div class="view-3-elem">
-                    <h1>TAILORED BRAND SOLUTIONS</h1>
-                    <p>We believe that every brand has a unique story to tell and our mission is to help you bring that story to life through exceptional branding, marketing, e-commerce, and social media strategies.</p>
-                </div>
+            <div class="item">
+              <img src="img/network-3139208.jpg" class= "img-responsive" alt="Text of the image">
+              <div class="carousel-caption">
+                <h3>LOREM IPSUM</h3>
+                <p>This is the caption</p>
+              </div>
             </div>
-
-        </section>
-
-        <section class="view-4">
-            <div class="view-4-container">
-                <h1>our services</h1>
-                <div class="view-4-container-a">
-                    <div class="view-4-elem">
-                        <hr>
-                        <h1>branding</h1>
-                        <p>Establish a strong brand identity that sets you apart.</p>
-                        <div class="view-4-elem-a">
-                            <div></div>
-                            <h2>about branding</h2>
-                        </div>
-                    </div>
-                    <div class="view-4-elem">
-                        <hr>
-                        <h1>CAMPAIGNS</h1>
-                        <p>Utilize data and analytics to optimize your marketing performance.</p>
-                        <div class="view-4-elem-a">
-                            <div></div>
-                            <h2>about CAMPAIGNS</h2>
-                        </div>
-                    </div>
-                    <div class="view-4-elem">
-                        <hr>
-                        <h1>E-COMMERCE</h1>
-                        <p>Develop customized online stores that reflect your brand and vision.</p>
-                        <div class="view-4-elem-a">
-                            <div></div>
-                            <h2>about E-COMMERCE</h2>
-                        </div>
-                    </div>
-                    <div class="view-4-elem">
-                        <hr>
-                        <h1>SOCIAL MEDIA</h1>
-                        <p>Create engaging and shareable content that drives brand awareness.</p>
-                        <div class="view-4-elem-a">
-                            <div></div>
-                            <h2>about SOCIAL MEDIA</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="view-4-heroimg">
-                <img src="./assets/images/63ff013040f8ceac6b7f98d1_home-services-p-1600.webp" alt="">
+            <div class="item">
+              <img src="img/color-3134831.jpg" alt="Text of the image" class= "img-responsive">
+              <div class="carousel-caption">
+                <h3>LOREM IPSUM</h3>
+                <p>This is the caption</p>
+              </div>
             </div>
 
-        </section>
-        
-        <hr>
-        
-        <section class="view-5">
-            
-            <div class="view-5-heading">
-                <img src="./assets/images/63fedc0657c2b7a94573a859_heading-selected-work.svg" alt="">
+          </div><!-- End Carousel inner -->
+          <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div><!-- End Carousel -->
+  
+  <!--   
+    <section>
+      <div class="well">
+        <div class="container text-center">
+          <h3>Subscribe for more free stuff</h3>
+           <p>Please enter your name and email</p>
+           <form action="" class="form-inline">
+             <div class="form-group">
+              <label for="subscription">Subscribe</label>
+              <input type="text" class="form-control" placeholder="your name" id="subscription">
             </div>
-            <div class="view-5-container">
-                <div class="view-5-container-a">
-                    <div class="view-5-elem">
-                        <img src="./assets/images/6401a5abcc00dd606d1af379_work-01-thumb-01.webp" alt="">
-                        <img class="view-5-img" src="./assets/images/6401a5adcb82400906ca21b1_work-01-thumb-02-p-1600.webp" alt="">
-                        <div class="view-5-elem-a">
-                            <h2>azure</h2>
-                            <p>website Redesign: Improving user experience and modernizing design.</p>
-                            <div class="view-5-elem-b">
-                                <h4>discover</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="view-5-container-b">
-                    <div class="view-5-elem">
-                        <img src="./assets/images/6401aab738e8cf1ec2616298_work-02-thumb-01.webp" alt="">
-                        <img class="view-5-img" src="./assets/images/6401aab9b421f8fa45424d65_work-02-thumb-02-p-1600.webp" alt="">
-                        <div class="view-5-elem-a">
-                            <h2>SAGE</h2>
-                            <p>Social Media Campaign: Building brand awareness and engagement.</p>
-                            <div class="view-5-elem-b">
-                                <h4>discover</h4>
-                            </div>
-                        </div>
-                    </div></div>
-
-            </div>  
-        </section>
-
-        <section class="view-6">
-            <div class="view-6-heading">
-                <img src="./assets/images/6402efc827be9bbeeaaf478d_heading-clients.svg" alt="">
+             <div class="form-group">
+              <label for="email">   Email Address</label>
+              <input type="email" class="form-control" placeholder="your email" id="email">
+              <button type="submit" class="btn btn-warning">Subscribe</button>
             </div>
-            <div class="view-6-container">
-                <div class="view-6-elem">
-                    <h4>2023</h4>
-                    <h1>oceania</h1>
-                    <h3>branding</h3>
-                </div>
-                <hr>
-                <div class="view-6-elem">
-                    <h4>2023</h4>
-                    <h1>FLEURÉ</h1>
-                    <h3>branding</h3>
-                </div>
-                <hr>
-                <div class="view-6-elem">
-                    <h4>2023</h4>
-                    <h1>NORTHLAND</h1>
-                    <h3>branding</h3>
-                </div>
-                <hr>
-                <div class="view-6-elem">
-                    <h4>2023</h4>
-                    <h1>VÉLOCE</h1>
-                    <h3>branding</h3>
-                </div>
-                <hr>
-                <div class="view-6-elem">
-                    <h4>2023</h4>
-                    <h1>AZURE</h1>
-                    <h3>branding</h3>
-                </div>
-                <hr>
-                <div class="view-6-elem">
-                    <h4>2023</h4>
-                    <h1>SAGE</h1>
-                    <h3>branding</h3>
-                </div> 
+           </form>
+           <hr> 
+        </div>
+      </div>< -->
+    </section>
+
+    </section>
+  </div>
+    <br><br>
+
+     <!-- Feedback -->
+    <div class="container feedback well">
+      <section>
+        <div class="page-header" id = 'feedback'>
+          <h2>Feedback</h2><small>Check out the owesome feedback</small>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse placeat cumque, mollitia fugit pariatur optio omnis dignissimos. </p>
+              <footer>Soothscier</footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse placeat cumque, mollitia fugit pariatur optio omnis dignissimos. </p>
+              <footer>Aw0reborn</footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse placeat cumque, mollitia fugit pariatur optio omnis dignissimos. </p>
+              <footer>Mr Robot</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+    </div><!--End Feedback -->
+
+
+    <!-- Form -->
+    <div class="container" id="contact-us">
+      <h2>Contact Us</h2>
+      <form action="">
+        <div class="row">
+        <div class="form-group col-lg-8">
+          <label for="element-1">Enter your full name:</label>
+          <input type="text" class="form-control" id="element-1" placeholder="enter your name">
+        </div>
+        </div>
+        <div class="row">
+        <div class="form-group col-lg-8">
+          <label for="element-1">Enter your email address:  </label>
+          <input type="email" class="form-control" id="element-2" placeholder="enter your email">
+        </div>
+        </div>
+        <div class="row">
+        <div class="form-group col-lg-8">
+          <label for="element-1">Enter your email address:  </label>
+          <textarea name="textarea" class="form-control" id="element-3" placeholder="enter your query"></textarea>
+        </div>
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn btn-primary" data-toggle='modal' data-target='#modal-1'>Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Modal -->
+    <div class="container">
+      <div class="modal" id="modal-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <header class="modal-header">
+              <button type="button" class='close' data-dismiss='modal'>&times;</button>
+              <h3 class="modal-heading">Form Submittion</h3>
+            </header>
+            <div class="modal-body"><h3>Are You sure you want to submit the form?</h3></div>
+            <div class="modal-footer">
+              <a href="#" class="btn btn-info">Yes</a>
+              <a href="#" class="btn btn-danger">No</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <hr>
-
-        <section class="view-7">
-            <div class="view-7-heading">
-                <h1>team</h1>
-
-                <p>We have assembled a team of talented and experienced professionals who are dedicated to helping you achieve your brand's full potential.</p>
+    
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="container text-center">
+        <h3>Follow for more awesome wallpapers</h3>
+        <!-- Social Media -->
+        <ul class="list-inline">
+          <li><a href="facebook.com/soothscier">
+            <div style="font-size:3em">
+              <i class="fab fa-facebook-square"></i>
             </div>
-            <div class="view-7-container">
-                <div class="view-7-elem">
-                    <h2>emily joy</h2>
-                    <div class="view-7-img">
-                        <img src="./assets/images/63ff00a2db0240de50310796_team-01.webp" alt="">
-                    </div>
-                    <div class="view-7-elem-a">
-                        <h3>creative director</h3>
-                        <div class="view-7-icons"></div>
-                    </div>
-                    <p>Leading our creative vision with strategic insights and innovative ideas.</p>
-                </div>
-                <div class="view-7-elem">
-                    <h2>KATE LEE</h2>
-                    <div class="view-7-img">
-                        <img src="./assets/images/63ff00a271f3fd9dfe241c66_team-02.webp" alt="">
-                    </div>
-                    <div class="view-7-elem-a">
-                        <h3>BRAND DESIGNER</h3>
-                        <div class="view-7-icons"></div>
-                    </div>
-                    <p>Crafting unique brand identities that capture the essence of your business.</p>
-                </div>
-                <div class="view-7-elem">
-                    <h2>JESS CHEN</h2>
-                    <div class="view-7-img">
-                        <img src="./assets/images/63ff00a1b965c65a0a669804_team-03.webp" alt="">
-                    </div>
-                    <div class="view-7-elem-a">
-                        <h3>FASHION DESIGNER</h3>
-                        <div class="view-7-icons"></div>
-                    </div>
-                    <p>Creating stunning visuals that elevate your brand and capture your audience's attention.</p>
-                </div>
-                <div class="view-7-elem">
-                    <h2>KATY YEN</h2>
-                    <div class="view-7-img">
-                        <img src="./assets/images/63ff00a343ac9c5c6dfc2f0c_team-04.webp" alt="">
-                    </div>
-                    <div class="view-7-elem-a">
-                        <h3>GRAPHIC DESIGNER</h3>
-                        <div class="view-7-icons"></div>
-                    </div>
-                    <p>Bringing your brand to life through thoughtful design and attention to detail.</p>
-                </div>
+          </a></li>
+          <li><a href="instagram.com/soothscier">
+            <div style="font-size:3em">
+              <i class="fab fa-instagram"></i>
             </div>
-        </section>
-
-        <section class="view-8">
-            <div class="view-8-container">
-                <hr>
-                <h2>join the team</h2>
-                <h1>want to shape the future of branding?</h1>
-                <div class="view-8-elem">
-                    <p>find job</p>
-                </div>
+          </a></li>
+          <li><a href="twitter.com/soothscier">
+            <div style="font-size:3em">
+              <i class="fab fa-twitter-square"></i>
             </div>
-        </section>
+          </a></li>
+        </ul>
+      </div>
+    </footer>
 
-        <footer>
-            <div class="container">
-                <div class="tag">
-                    <img src="./assets/images/63feeb42b65dd173f3735367_heading-lets-create-inverse.svg" alt="">
-                </div>
-                <h1>UNLEASHING the potential of your brand</h1>
-                <p>get in touch</p>
 
-                <hr>
-                <h4>&copy; made by prakash samanta with the help of kanhaji 🩵 | inspired from webflow </h4>
-            </div>
-        </footer>
-    </main>
-</body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
