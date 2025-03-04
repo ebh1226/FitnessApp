@@ -1,4 +1,7 @@
-A basic Front End Web App made using HTML, CSS and Bootstrap.
+My very own workout app
 
-View it: 
+See final product at:
+ebh1226.github.io/FitnessApp/
+
+Template credit to: 
 https://soothscier.github.io/A-simple-web-app-template/index.html
