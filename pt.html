@@ -1,1 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ellen's Fitness Website</title>
 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap-social.css"> -->
+
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+      <div class="container">
+        <!-- navbar-header -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target = "#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- brand logo -->
+          <a href="index.html" class="navbar-brand">EBHFit</a>
+        </div>
+        <div  class="collapse navbar-collapse" id="navbar-collapse">
+          <a href="#" class="btn navbar-btn btn-warning navbar-right">New Workout</a>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="workout.html">Workouts</a></li>
+            <li><a href="pt.html">Personal Training</a></li>
+          </ul>
+        </div>
+      </div>  
+    </nav> <!--End Navbar-->
+  
+    <!-- JUMBOTRON -->
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Let's Get It</h1>
+        <p>Cycle, running, lifting ... let's go!</p>
+
+        <div class="btn-group">
+          <a href="#" class="btn btn-large btn-warning">Jacqueline</a>
+          <a href="#" class="btn btn-large btn-default ">Ricardo</a>
+          <a href="#" class="btn btn-large btn-warning"><span class="glyphicon glyphicon-share-alt"></span>New Clients</a>
+        </div>
+      </div>
+    </div><!--End Jumbotron-->
+
+
+     <!-- Workouts -->
+    <div class="container workout well">
+      <section>
+        <div class="page-header" id = 'workout'>
+          <h2>Workouts</h2><small>Pick your poison</small>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <blockquote>
+              <p>Push Day: Chest, Shoulders, Triceps</p>
+              <ul>
+                <li>Bench Press</li>
+                <li>Chest Press (Pulley Machine)</li>
+                <li>Shoulder Press (Dumbbell)</li>
+                <li>Triceps Dips</li>
+                <li>Lateral Raises (Front and Side)</li>
+                <li>Core</li>
+              </ul>
+              <footer>Moderate Intensity Cardio</footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote>
+              <p>Pull Day: Back and Biceps</p>
+              <ul>
+                <li>Bicep curl</li>
+                <li>Face Pulls</li>
+                <li>Isolated Bicep Curl</li>
+                <li>Incline Bicep Curl</li>
+                <li>Pulldown Machine</li>
+                <li>Low Row Machine</li>
+                <li>Pull-Ups</li>
+                <li>Core</li>
+              </ul>
+              <footer>Moderate Intensity Cardio</footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote>
+              <p>Leg Day</p>
+              <ul>
+                <li>Leg Press</li>
+                <li>Leg Extension</li>
+                <li>Leg Curl</li>
+                <li>Hip Abduction</li>
+                <li>Hip Adduction</li>
+                <li>Hip Thrusts</li>
+                <li>Walking Lunges</li>
+                <li>Calf Raises</li>
+              </ul>
+              <footer>Cardio</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+    </div><!--End Feedback -->
+
+
+    <!-- Form -->
+    <div class="container" id="contact-us">
+      <h2>Contact Us</h2>
+      <form action="">
+        <div class="row">
+        <div class="form-group col-lg-8">
+          <label for="element-1">Enter your full name:</label>
+          <input type="text" class="form-control" id="element-1" placeholder="enter your name">
+        </div>
+        </div>
+        <div class="row">
+        <div class="form-group col-lg-8">
+          <label for="element-1">Enter your email address:  </label>
+          <input type="email" class="form-control" id="element-2" placeholder="enter your email">
+        </div>
+        </div>
+        <div class="row">
+        <div class="form-group col-lg-8">
+          <label for="element-1">Enter your email address:  </label>
+          <textarea name="textarea" class="form-control" id="element-3" placeholder="enter your query"></textarea>
+        </div>
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn btn-primary" data-toggle='modal' data-target='#modal-1'>Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Modal -->
+    <div class="container">
+      <div class="modal" id="modal-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <header class="modal-header">
+              <button type="button" class='close' data-dismiss='modal'>&times;</button>
+              <h3 class="modal-heading">Form Submittion</h3>
+            </header>
+            <div class="modal-body"><h3>Are You sure you want to submit the form?</h3></div>
+            <div class="modal-footer">
+              <a href="#" class="btn btn-info">Yes</a>
+              <a href="#" class="btn btn-danger">No</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="container text-center">
+        <h3>Follow for more awesome wallpapers</h3>
+        <!-- Social Media -->
+        <ul class="list-inline">
+          <li><a href="facebook.com/soothscier">
+            <div style="font-size:3em">
+              <i class="fab fa-facebook-square"></i>
+            </div>
+          </a></li>
+          <li><a href="instagram.com/soothscier">
+            <div style="font-size:3em">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </a></li>
+          <li><a href="twitter.com/soothscier">
+            <div style="font-size:3em">
+              <i class="fab fa-twitter-square"></i>
+            </div>
+          </a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
