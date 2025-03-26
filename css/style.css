@@ -18,13 +18,11 @@ body {
 }
 
 .instructor-pic {
-    /*display: block;
-    /*max-width: 300px; /* Adjust the size as needed */
-    /*margin-left: auto;
-    /*margin-right: auto;
-    /*height: auto; /* Maintain aspect ratio */
-    float: left;
-    clip-path: circle(40%);
-    shape-outside: circle(45%);
+    display: block;
+    max-width: 300px; /* Adjust the size as needed */
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; /* Maintain aspect ratio */
+	padding-top: 50px;
 }
 }
