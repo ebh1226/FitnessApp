@@ -12,3 +12,7 @@
     left: 0;
     min-height: 300px;
 }
+
+body {
+    padding-top: 70px; /* Adjust this value to match your navbar height */
+}
