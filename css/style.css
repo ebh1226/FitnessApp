@@ -16,3 +16,11 @@
 body {
     padding-top: 50px; /* Adjust this value to match your navbar height */
 }
+
+.instructor-pic {
+    display: block;
+    max-width: 300px; /* Adjust the size as needed */
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; /* Maintain aspect ratio */
+}
